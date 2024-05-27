@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2024.5.26)  27 MAY 2024 13:06
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2024.5.26)  27 MAY 2024 14:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -953,19 +953,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
  []
 
-))
-! Emergency stop.
-<*> ./report.tex
-                
-*** (job aborted, no legal \end found)
+) [5
 
- 
+] (report.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2022/08/05>
+ ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package rerunfilecheck Info: File `report.out' has not changed.
+(rerunfilecheck)             Checksum: 036CDD9A610513C4E0A8D393AB25B50B;2155.
+ ) 
 Here is how much of TeX's memory you used:
- 19159 strings out of 409617
- 361449 string characters out of 5778276
+ 19163 strings out of 409617
+ 361529 string characters out of 5778276
  1930191 words of memory out of 5000000
- 40990 multiletter control sequences out of 15000+600000
+ 40992 multiletter control sequences out of 15000+600000
  559243 words of font info for 71 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  74i,5n,85p,384b,424s stack positions out of 10000i,1000n,20000p,200000b,200000s
-Output written on report.pdf (7 pages).
+
+Output written on report.pdf (8 pages).
