@@ -5,7 +5,7 @@ on:
       - pdf
       - main
     paths:
-      - 'LaTeX/**'
+      - 'latex/**'
   pull_request:
       branches: [ pdf ]
   workflow_dispatch:
