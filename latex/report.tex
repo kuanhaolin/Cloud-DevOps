@@ -1,9 +1,16 @@
 \documentclass[12pt,a4paper]{report}  %紙張設定
+
+%=------------------文件資料----------------------=%
+\title{雲端開發與運維報告書}
+\author{Author: lkh}
+\date{Date: 2024.05.26}
+
+%=------------------模組----------------------=%
 \usepackage{xeCJK}%中文字體模組
-%\setCJKmainfont{標楷體} %設定中文字體
-\setCJKmainfont{MoeStandardKai.ttf}
-%\newfontfamily\sectionef{Times New Roman}%設定英文字體
-\newfontfamily\sectionef{Nimbus Roman}
+%\setCJKmainfont{標楷體} %設定中文字體 本地使用
+\setCJKmainfont{MoeStandardKai.ttf} %遠端使用
+%\newfontfamily\sectionef{Times New Roman}%設定英文字體 本地使用
+\newfontfamily\sectionef{Nimbus Roman} %遠端使用
 \usepackage{enumerate}
 \usepackage{amsmath,amssymb}%數學公式、符號
 \usepackage{amsfonts} %數學簍空的英文字
@@ -92,23 +99,23 @@ Serverless architecture under the DevOps process}
 \begin{flushleft}
 \begin{LARGE}
 
-\hspace{32mm}\makebox[5cm][s]
-{學\qquad 生：\quad 林\quad 冠\quad 澔\quad(A11223032)}
+\hspace{30mm}\makebox[5cm][s]
+{學\quad 生：\quad 林\quad 冠\quad 澔\quad(A11223032)}
 \\[6pt]
-\hspace{32mm}\makebox[5cm][s]
-{\hspace{43mm}林\quad 家\quad 明\quad(B10923005)}\\[6pt]
-\hspace{32mm}\makebox[5cm][s]
-{\hspace{43mm}夏\quad 侯\quad 育\quad(B10923020)}\\[6pt]
-\hspace{32mm}\makebox[5cm][s]
-{\hspace{43mm}劉\quad 家\quad 豐\quad(B10923046)}\\[6pt]
-\hspace{32mm}\makebox[5cm][s]
-{\hspace{43mm}王\qquad \quad 瓅\quad(B11100028)}\\[6pt]
+\hspace{30mm}\makebox[5cm][s]
+{\hspace{36.5mm}林\quad 家\quad 明\quad(B10923005)}\\[6pt]
+\hspace{30mm}\makebox[5cm][s]
+{\hspace{36.5mm}夏\quad 侯\quad 育\quad(B10923020)}\\[6pt]
+\hspace{30mm}\makebox[5cm][s]
+{\hspace{36.5mm}劉\quad 家\quad 豐\quad(B10923046)}\\[6pt]
+\hspace{30mm}\makebox[5cm][s]
+{\hspace{36.5mm}王\qquad \quad 瓅\quad(B11100028)}\\[6pt]
 %設定文字盒子[寬度為5cm][對其方式為文字平均分分布於方框中]空白距離{36.5mm}\空白1em
 \end{LARGE}
 \end{flushleft}
 \vspace{8em}
 \fontsize{18pt}{2pt}\selectfont\centerline{\makebox[\width][s]
-{中華民國\hspace{2em} 
+{中華民國\hspace{1em} 
 113 \quad 年\quad 6\quad 月}}
 \end{titlepage}
 \newpage
@@ -121,7 +128,7 @@ Serverless architecture under the DevOps process}
 \begin{spacing}{1.5}
 \pagenumbering{roman}
 \setcounter{page}{1}  %設定頁數
-\renewcommand{\contentsname}{\centerline{\fontsize{18pt}{\baselineskip}\selectfont\textbf{目\quad 錄}}}
+\renewcommand{\contentsname}{\centerline{\fontsize{24pt}{\baselineskip}\selectfont\textbf{目\quad 錄}}}
 \tableofcontents　　%目錄產生
 \end{spacing}
 \newpage
@@ -144,8 +151,9 @@ Serverless architecture under the DevOps process}
 \input{3.tex}
 \input{4.tex}
 \input{5.tex}
-%=---------------------相關資料----------------------=%
-%\input{9_reference.tex}
+%=---------------------尾頁----------------------=%
+\newpage
+\input{back.tex}
 %=---------------附錄-----------------=%
 %\addcontentsline{toc}{chapter}{附錄} %新增目錄名稱
 %\input{10_appendix.tex}
