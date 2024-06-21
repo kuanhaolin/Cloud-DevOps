@@ -18,6 +18,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4.1.1
+      - name: Update apt-get 
+        run: sudo apt-get update --fix-missing
       - name: Install texlive and related fonts
         run:
           sudo apt install -y texlive texlive-xetex texlive-lang-chinese gsfonts fonts-moe-standard-kai ttf-mscorefonts-installer librsvg2-bin texlive-fonts-extra 
